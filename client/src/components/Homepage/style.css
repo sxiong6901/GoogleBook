@@ -1,14 +1,19 @@
 nav {
-    background-color: rgb(165, 137, 129)
+    background-image: url("./Google Book.png");
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 a {
     text-decoration: none;
-    color: white
+    color: red;
+    text-align: right;
 }
  a:hover {
     text-decoration: underline;
-    color: white
+    color: blue
 }
 
 .navbar-brand {
@@ -18,8 +23,19 @@ a {
 }
 
 .nav-item {
+    text-align: right;
     font-size: 20px;
+    
+}
+
+.form-group {
+    text-align:center;
+    color: blue;
     font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    font-family: cursive;
+}
+
+#Navbar {
+    height: 10rem;
+
 }

@@ -7,30 +7,14 @@ return (
   
   <div className="container">
 
-<nav className="navbar navbar-expand-lg text-light">
-            <div className="container">
-                <Link className="navbar-brand" to="/">Google Books</Link>
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <Link
-                            to="/search"
-                            className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
-                        > Search</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link
-                            to="/saved"
-                            className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
-                        >Saved</Link>
-                    </li>
-                </ul>
-            </div>
+<nav className="navbar navbar-expand-lg text-light" class id="Navbar">
 </nav>
 
+<hr></hr><br></br>
   <form>
     <div className="form-group">
       <label htmlFor="search"><h2>Search for Your Favorite Book</h2></label>
-      <input
+      <input className="Input"
         onChange={props.handleInputChange}
         value={props.search}
         name="search"
@@ -46,8 +30,8 @@ return (
   </form>
 
 
-  
   </div>
+  
 );
 }
 
