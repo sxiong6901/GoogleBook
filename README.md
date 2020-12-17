@@ -4,7 +4,6 @@
   * [Title](#Title)
   * [Description](#Description)
   * [License](#license)
-  * [Contributors](#Contributors)
   * [Questions](#Questions)
 
 ## Title
@@ -22,6 +21,8 @@ This App is deployed on Heroku: https://peaceful-island-89582.herokuapp.com/
 
 ![myimage-alt-tag](https://github.com/sxiong6901/GoogleBook/blob/master/Assets/Screenshot.JPG?raw=true)
 
-## Author
+## License
+MIT
 
+## Author
 Soua Xiong
